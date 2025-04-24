@@ -79,7 +79,9 @@
             this.Controls.Add(this.txtIdCategoria);
             this.Controls.Add(this.txtNomeCategoria);
             this.Controls.Add(this.btnCadastrar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "cadastrarCategoria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar Categoria";
             this.Load += new System.EventHandler(this.cadastrarCategoria_Load);
             this.ResumeLayout(false);

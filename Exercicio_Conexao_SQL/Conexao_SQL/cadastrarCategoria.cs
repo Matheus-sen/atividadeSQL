@@ -57,6 +57,7 @@ namespace Conexao_SQL
         private void cadastrarCategoria_Load(object sender, EventArgs e)
         {
             txtIdCategoria.Text = IdCategoria.ToString(); // Inicializa o campo de ID
+            txtIdCategoria.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)

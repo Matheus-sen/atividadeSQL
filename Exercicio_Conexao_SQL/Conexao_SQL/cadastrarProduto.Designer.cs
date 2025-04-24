@@ -28,54 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.txtIdProduto = new System.Windows.Forms.TextBox();
+            this.txtNomeProduto = new System.Windows.Forms.TextBox();
+            this.cbxCategoriaProduto = new System.Windows.Forms.ComboBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCadastrar
             // 
-            this.button1.Location = new System.Drawing.Point(161, 237);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Location = new System.Drawing.Point(190, 237);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastrar.TabIndex = 0;
+            this.btnCadastrar.Text = "Cadastrar";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
-            // textBox1
+            // txtIdProduto
             // 
-            this.textBox1.Location = new System.Drawing.Point(86, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(52, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtIdProduto.Location = new System.Drawing.Point(66, 52);
+            this.txtIdProduto.Name = "txtIdProduto";
+            this.txtIdProduto.ReadOnly = true;
+            this.txtIdProduto.Size = new System.Drawing.Size(52, 20);
+            this.txtIdProduto.TabIndex = 1;
             // 
-            // textBox2
+            // txtNomeProduto
             // 
-            this.textBox2.Location = new System.Drawing.Point(86, 105);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(150, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtNomeProduto.Location = new System.Drawing.Point(66, 89);
+            this.txtNomeProduto.Name = "txtNomeProduto";
+            this.txtNomeProduto.Size = new System.Drawing.Size(199, 20);
+            this.txtNomeProduto.TabIndex = 2;
             // 
-            // comboBox1
+            // cbxCategoriaProduto
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(86, 161);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 21);
-            this.comboBox1.TabIndex = 3;
+            this.cbxCategoriaProduto.FormattingEnabled = true;
+            this.cbxCategoriaProduto.Location = new System.Drawing.Point(66, 128);
+            this.cbxCategoriaProduto.Name = "cbxCategoriaProduto";
+            this.cbxCategoriaProduto.Size = new System.Drawing.Size(199, 21);
+            this.cbxCategoriaProduto.TabIndex = 3;
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Location = new System.Drawing.Point(66, 237);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(75, 23);
+            this.btnVoltar.TabIndex = 4;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // cadastrarProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(323, 316);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnVoltar);
+            this.Controls.Add(this.cbxCategoriaProduto);
+            this.Controls.Add(this.txtNomeProduto);
+            this.Controls.Add(this.txtIdProduto);
+            this.Controls.Add(this.btnCadastrar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "cadastrarProduto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Produto";
+            this.Load += new System.EventHandler(this.cadastrarProduto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -83,9 +100,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.TextBox txtIdProduto;
+        private System.Windows.Forms.TextBox txtNomeProduto;
+        private System.Windows.Forms.ComboBox cbxCategoriaProduto;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }
