@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\",
+  "WorkspaceRootPath": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\exercicio_conexao_sql\\conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\git\\exercicio_conexao_sql\\conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\exercicio_conexao_sql\\conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\exercicio_conexao_sql\\conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\exercicio_conexao_sql\\conexao_sql\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\conexao_sql\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\exercicio_conexao_sql\\conexao_sql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\conexao_sql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\exercicio_conexao_sql\\conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -52,24 +52,23 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\Program.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\Program.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Program.cs",
+              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\Program.cs",
               "RelativeToolTip": "Conexao_SQL\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T00:47:13.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T00:47:13.216Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "cadastrarCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarCategoria.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
+              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
               "RelativeToolTip": "Conexao_SQL\\cadastrarCategoria.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwD8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T00:10:08.729Z",
               "EditorCaption": ""
@@ -78,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "cadastrarCategoria.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarCategoria.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs [Design]",
+              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs [Design]",
               "RelativeToolTip": "Conexao_SQL\\cadastrarCategoria.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T22:56:52.346Z",
@@ -90,33 +89,31 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Visualizar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\Visualizar.cs",
               "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs [Design]",
-              "RelativeToolTip": "Conexao_SQL\\Visualizar.cs [Design]",
+              "RelativeToolTip": "..\\..\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T23:01:47.467Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-23T23:01:47.467Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\Menu.cs",
               "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs [Design]",
-              "RelativeToolTip": "Conexao_SQL\\Menu.cs [Design]",
+              "RelativeToolTip": "..\\..\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T23:01:36.248Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-23T23:01:36.248Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "cadastrarProduto.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarProduto.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs [Design]",
+              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\git\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs [Design]",
               "RelativeToolTip": "Conexao_SQL\\cadastrarProduto.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T23:01:25.464Z",

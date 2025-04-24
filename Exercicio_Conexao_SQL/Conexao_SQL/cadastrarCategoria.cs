@@ -58,5 +58,10 @@ namespace Conexao_SQL
         {
             txtIdCategoria.Text = IdCategoria.ToString(); // Inicializa o campo de ID
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
