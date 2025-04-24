@@ -1,0 +1,13 @@
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\bin\Debug\Conexao_SQL.exe.config
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\bin\Debug\Conexao_SQL.exe
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\bin\Debug\Conexao_SQL.pdb
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.csproj.AssemblyReference.cache
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.cadastrarCategoria.resources
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.Menu.resources
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.Properties.Resources.resources
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.csproj.GenerateResource.cache
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.csproj.CoreCompileInputs.cache
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.exe
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.pdb
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.cadastrarProduto.resources
+C:\Users\matheus.smatos11\source\repos\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.Visualizar.resources
