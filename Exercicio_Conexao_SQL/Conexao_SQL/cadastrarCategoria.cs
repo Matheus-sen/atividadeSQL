@@ -8,11 +8,20 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Conexao_SQL
 {
     public partial class cadastrarCategoria: Form
     {
+
+        MySqlConnection Conexao;
+
+        public string data_source = "datasource=LocalHost;username=root;password=;database=Atividade_Conexao";
+
+        public int ?id_produto_selecionado = null;
+        public string nome_categoria = "";
+
         private int IdCategoria = 1; // Variável para armazenar o próximo ID
         public cadastrarCategoria()
         {
@@ -37,6 +46,12 @@ namespace Conexao_SQL
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+
+            Conexao = new MySqlConnection(data_source);
+            Conexao.Open();
+            MySqlCommand catcmd = new MySqlCommand();
+            catcmd.Connection = Conexao;
+
             if (string.IsNullOrEmpty(txtNomeCategoria.Text))
             {
                 Erro("Campo Categoria não pode estar Vazia!");
@@ -44,13 +59,27 @@ namespace Conexao_SQL
             }
             else
             {
+                catcmd.Parameters.Clear(); // limpa os parâmetros antigos
+                catcmd.CommandText =
+                    "INSERT INTO categoria " +
+                    "(nome_categoria) " +
+                    "VALUES " +
+                    "(@nome_categoria)";
+
+                catcmd.Parameters.AddWithValue("@nome_categoria", txtNomeCategoria.Text);
+
+                catcmd.ExecuteNonQuery();
                 Sucesso("Categoria Cadastrada com sucesso!");
                 IdCategoria++; // Incrementa o próximo ID
                 txtIdCategoria.Text = IdCategoria.ToString(); // Atualiza o campo de ID
-             
+
             }
 
-            Limpar();
+            // foreach para pegar o id da categoria selecionada
+            // verificar se o id já existe
+            // tratar caso o id exista
+
+                Limpar();
         }
 
 
