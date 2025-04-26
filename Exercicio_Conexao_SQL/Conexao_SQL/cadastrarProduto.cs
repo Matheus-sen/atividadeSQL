@@ -7,12 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Conexao_SQL
 {
     public partial class cadastrarProduto: Form
     {
         private int IdProduto = 1;
+
+        public string data_source = "datasource=LocalHost;username=root;password=;database=Atividade_Conexao";
+        MySqlConnection Conexao;
         public cadastrarProduto()
         {
             InitializeComponent();
@@ -30,6 +34,15 @@ namespace Conexao_SQL
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+            
+            Conexao = new MySqlConnection(data_source);
+            Conexao.Open();
+            MySqlCommand prodcmd = new MySqlCommand();
+            prodcmd.Connection = Conexao;
+
+
+
+
             if (string.IsNullOrEmpty(txtNomeProduto.Text) || string.IsNullOrEmpty(cbxCategoriaProduto.Text))
             {
                 Erro("Não pode conter campos vazios!");
@@ -37,9 +50,20 @@ namespace Conexao_SQL
             }
             else
             {
-                Sucesso("Produto Cadastrado com sucesso!");
-                IdProduto++; 
-                txtIdProduto.Text = IdProduto.ToString(); 
+                prodcmd.Parameters.Clear(); // limpa os parâmetros antigos
+                prodcmd.CommandText =
+                    "INSERT INTO produto " +
+                    "(nome_produto, id_categoria ) " + //id_categoria
+                    "VALUES " +
+                    "(@nome_produto, @id_categoria)"; //@id_categoria
+
+                prodcmd.Parameters.AddWithValue("@nome_produto", txtNomeProduto.Text);
+                prodcmd.Parameters.AddWithValue("@id_categoria", cbxCategoriaProduto.Text);
+
+                prodcmd.ExecuteNonQuery();
+                Sucesso("Categoria Cadastrada com sucesso!");
+                IdProduto++; // Incrementa o próximo ID
+                txtIdProduto.Text = IdProduto.ToString(); // Atualiza o campo de ID
 
             }
         }

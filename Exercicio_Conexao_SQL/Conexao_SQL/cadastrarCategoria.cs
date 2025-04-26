@@ -19,6 +19,7 @@ namespace Conexao_SQL
 
         public string data_source = "datasource=LocalHost;username=root;password=;database=Atividade_Conexao";
 
+        public List<string> dadosCategoria;
         public int ?id_produto_selecionado = null;
         public string nome_categoria = "";
 
@@ -26,6 +27,7 @@ namespace Conexao_SQL
         public cadastrarCategoria()
         {
             InitializeComponent();
+            SelectCategoria();
         }
 
         private void Limpar()
@@ -44,6 +46,31 @@ namespace Conexao_SQL
             MessageBox.Show(mensagem, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        public void SelectCategoria()
+        {
+
+            string Categoria = txtNomeCategoria.Text.Trim().ToUpper();
+
+            Conexao = new MySqlConnection(data_source);
+
+            string sql = "SELECT nome_categoria FORM categoria";
+
+            Conexao.Open();
+
+            MySqlCommand vercmd = new MySqlCommand(sql, Conexao);
+            vercmd.Parameters.AddWithValue("@categoria", Categoria);
+
+            MySqlDataReader reader = vercmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                string[]row =
+            }
+
+
+            dadosCategoria = new List<string> {  };
+        }
+
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
 
@@ -52,9 +79,16 @@ namespace Conexao_SQL
             MySqlCommand catcmd = new MySqlCommand();
             catcmd.Connection = Conexao;
 
-            if (string.IsNullOrEmpty(txtNomeCategoria.Text))
+            
+
+            if (string.IsNullOrEmpty(Categoria))
             {
                 Erro("Campo Categoria não pode estar Vazia!");
+                return;
+            }
+            else if(dadosCategoria.Contains(Categoria, StringComparer.OrdinalIgnoreCase))
+            {
+                Erro("Categoria já existente!");
                 return;
             }
             else
@@ -66,7 +100,7 @@ namespace Conexao_SQL
                     "VALUES " +
                     "(@nome_categoria)";
 
-                catcmd.Parameters.AddWithValue("@nome_categoria", txtNomeCategoria.Text);
+                catcmd.Parameters.AddWithValue("@nome_categoria", Categoria);
 
                 catcmd.ExecuteNonQuery();
                 Sucesso("Categoria Cadastrada com sucesso!");
@@ -79,7 +113,7 @@ namespace Conexao_SQL
             // verificar se o id já existe
             // tratar caso o id exista
 
-                Limpar();
+            Limpar();
         }
 
 
