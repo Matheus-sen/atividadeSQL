@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Matheus Matos\\Desktop\\atividadeSQL\\Exercicio_Conexao_SQL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus matos\\desktop\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus matos\\desktop\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus matos\\desktop\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus matos\\desktop\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "cadastrarProduto.cs",
               "DocumentMoniker": "C:\\Users\\Matheus Matos\\Desktop\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarProduto.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "cadastrarProduto.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Matheus Matos\\Desktop\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarProduto.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Visualizar.cs",
               "DocumentMoniker": "C:\\Users\\Matheus Matos\\Desktop\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\Visualizar.cs",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Visualizar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Matheus Matos\\Desktop\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\Visualizar.cs",
