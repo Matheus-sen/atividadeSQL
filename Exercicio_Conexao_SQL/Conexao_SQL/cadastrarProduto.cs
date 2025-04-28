@@ -14,13 +14,76 @@ namespace Conexao_SQL
     public partial class cadastrarProduto: Form
     {
         private int IdProduto = 1;
-
-        public string data_source = "datasource=LocalHost;username=root;password=;database=Atividade_Conexao";
+        public string data_source = "datasource=LocalHost;username=root;password=55333891;database=Atividade_Conexao";
         MySqlConnection Conexao;
         public cadastrarProduto()
         {
             InitializeComponent();
+            CarregarProximoIdDoBanco();
+            CarregarCategoriasNoComboBox();
         }
+
+        private void Limpar()
+        {
+            txtNomeProduto.Clear();
+            cbxCategoriaProduto.SelectedIndex = -1;
+        }
+        private void CarregarProximoIdDoBanco()
+        {
+            Conexao = new MySqlConnection(data_source);
+            try
+            {
+                Conexao.Open();
+                string selectIdProdBanco = "SELECT MAX(id_produto) FROM produto";
+                MySqlCommand selectprodbanc = new MySqlCommand(selectIdProdBanco, Conexao);
+                object resultadoMax = selectprodbanc.ExecuteScalar();
+
+                if (resultadoMax != DBNull.Value && resultadoMax != null)
+                {
+                    IdProduto = Convert.ToInt32(resultadoMax) + 1;
+                }
+                else
+                {
+                    IdProduto = 1;
+                }
+
+            }
+            catch (MySqlException ex)
+            {
+                Erro($"Erro ao carregar o próximo ID: {ex.Message}");
+            }
+            finally
+            {
+                Conexao.Close();
+            }
+        }
+
+        private void CarregarCategoriasNoComboBox()
+        {
+            Conexao = new MySqlConnection(data_source);
+            try
+            {
+                Conexao.Open();
+                string selectCategorias = "SELECT nome_categoria FROM categoria";
+                MySqlCommand cmdCategorias = new MySqlCommand(selectCategorias, Conexao);
+                MySqlDataReader readerCategorias = cmdCategorias.ExecuteReader();
+
+                cbxCategoriaProduto.Items.Clear(); // Limpa os itens existentes no ComboBox
+                while (readerCategorias.Read())
+                {
+                    cbxCategoriaProduto.Items.Add(readerCategorias.GetString(0)); // Adiciona cada nome de categoria ao ComboBox
+                }
+            }
+            catch (MySqlException ex)
+            {
+                Erro($"Erro ao carregar categorias no ComboBox: {ex.Message}");
+            }
+            finally
+            {
+                Conexao.Close();
+            }
+        }
+
 
         public void Erro(string mensagem)
         {
@@ -55,15 +118,16 @@ namespace Conexao_SQL
                     "INSERT INTO produto " +
                     "(nome_produto, id_categoria ) " + //id_categoria
                     "VALUES " +
-                    "(@nome_produto, @id_categoria)"; //@id_categoria
+                    "(@nome_produto, (SELECT id_categoria FROM categoria WHERE nome_categoria = @nome))";
 
                 prodcmd.Parameters.AddWithValue("@nome_produto", txtNomeProduto.Text);
-                prodcmd.Parameters.AddWithValue("@id_categoria", cbxCategoriaProduto.Text);
+                prodcmd.Parameters.AddWithValue("@nome", cbxCategoriaProduto.SelectedItem.ToString()); // Pega o item selecionado
 
                 prodcmd.ExecuteNonQuery();
                 Sucesso("Categoria Cadastrada com sucesso!");
                 IdProduto++; // Incrementa o próximo ID
                 txtIdProduto.Text = IdProduto.ToString(); // Atualiza o campo de ID
+                Limpar();
 
             }
         }

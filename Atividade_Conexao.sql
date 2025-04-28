@@ -1,3 +1,4 @@
+-- DROP DATABASE Atividade_Conexao;
 CREATE DATABASE Atividade_Conexao;
 
 USE Atividade_Conexao;
