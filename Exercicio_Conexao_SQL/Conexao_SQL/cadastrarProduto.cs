@@ -14,7 +14,7 @@ namespace Conexao_SQL
     public partial class cadastrarProduto: Form
     {
         private int IdProduto = 1;
-        public string data_source = "datasource=LocalHost;username=root;password=55333891;database=Atividade_Conexao";
+        public string data_source = "datasource=LocalHost;username=root;password=;database=Atividade_Conexao";
         MySqlConnection Conexao;
         public cadastrarProduto()
         {
@@ -116,7 +116,7 @@ namespace Conexao_SQL
                 prodcmd.Parameters.Clear(); // limpa os parâmetros antigos
                 prodcmd.CommandText =
                     "INSERT INTO produto " +
-                    "(nome_produto, id_categoria ) " + //id_categoria
+                    "(nome_produto, id_categoria ) " +
                     "VALUES " +
                     "(@nome_produto, (SELECT id_categoria FROM categoria WHERE nome_categoria = @nome))";
 

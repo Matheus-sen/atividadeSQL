@@ -14,7 +14,7 @@ namespace Conexao_SQL
     public partial class Visualizar: Form
     {
 
-        public string data_source = "datasource=LocalHost;username=root;password=55333891;database=Atividade_Conexao";
+        public string data_source = "datasource=LocalHost;username=root;password=;database=Atividade_Conexao";
         MySqlConnection Conexao;
         public Visualizar()
         {

@@ -17,7 +17,7 @@ namespace Conexao_SQL
 
         MySqlConnection Conexao;
 
-        public string data_source = "datasource=LocalHost;username=root;password=55333891;database=Atividade_Conexao";
+        public string data_source = "datasource=LocalHost;username=root;password=;database=Atividade_Conexao";
 
         public List<string> dadosCategoria = new List<string>(); // usado para inicializar a lista aqui que receberá as categorias
         //public int ?id_produto_selecionado = null; EXCLUIR
@@ -40,7 +40,7 @@ namespace Conexao_SQL
                 Conexao.Open(); // Abre a conexão 
                 string selectIdCatBanco = "SELECT MAX(id_categoria) FROM categoria"; // faz a verificação direta no banco e tras o número Maior MAX do ID 
                 MySqlCommand selectbanc = new MySqlCommand(selectIdCatBanco, Conexao); // cria um objeto com o nome selectbanc, que recebe o número maior do ID pela string e a conexão data_source, comando para ser usado no banco SQL
-                object resultadoMax = selectbanc.ExecuteScalar(); //object indica uma variável genérica(recebe qualquer tipo de dado), recebendo o valor selectbanc = selectIdBanco = (MAX - ID), 
+                object resultadoMax = selectbanc.ExecuteScalar(); //object indica uma variável genérica(recebe qualquer tipo de dado), recebendo o valor selectbanc = selectIdBanco = (MAX, ID).
 
 
                 // condição if (se), verifica se o valor da variável resultadoMax não é um valor nulo no Banco (DBNull.Value) e com o operador lógico && (and/e), verifica se o valor da variável não é nulo no C#.
