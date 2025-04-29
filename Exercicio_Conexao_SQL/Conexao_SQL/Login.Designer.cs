@@ -42,6 +42,7 @@
             this.btnLogar.TabIndex = 0;
             this.btnLogar.Text = "Logar";
             this.btnLogar.UseVisualStyleBackColor = true;
+            this.btnLogar.Click += new System.EventHandler(this.btnLogar_Click);
             // 
             // txtUser
             // 

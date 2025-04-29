@@ -65,6 +65,7 @@ namespace Conexao_SQL
             {
                 txtSenha.Text = "";
                 txtSenha.ForeColor = Color.Black;
+                txtSenha.PasswordChar = '*';
             }
         }
 
@@ -74,10 +75,10 @@ namespace Conexao_SQL
             {
                 txtSenha.Text = "Senha...";
                 txtSenha.ForeColor = Color.Gray;
-                //txtSenha.PasswordChar = '*';
             }
         }
 
+        //1º
         private void UsuarioPadrao()
         {
             Conexao = new MySqlConnection(data_source);
@@ -85,48 +86,36 @@ namespace Conexao_SQL
             try
             {
                 Conexao.Open();
-                string inserirUsuarioPadrao = "INSERT INTO login " +
-                                              "(user, senha, tipo_usuario)" +
-                                              "VALUES" +
-                                              "(admin, admin, Administrador)";
-                MySqlCommand catcmd = new MySqlCommand(inserirUsuarioPadrao, Conexao);
+                string verificarAdmin = "SELECT COUNT(*) FROM login WHERE user = 'admin'";
+                MySqlCommand verificarCmd = new MySqlCommand(verificarAdmin, Conexao);
+                int count = (int)verificarCmd.ExecuteScalar();
 
-                if()
-
-
-
-
-
-                /*
-                 Conexao.Open();
-                    //variável do tipo string que armazena o comando do tipo SQL para ser usado depois
-                    string inserir = "INSERT INTO categoria " +
-                                     "(nome_categoria) " +
-                                     "VALUES " +
-                                     "(@nome_categoria)";
-
-                    MySqlCommand catcmd = new MySqlCommand(inserir, Conexao);
-                    catcmd.Parameters.AddWithValue("@nome_categoria", txtNomeCategoria.Text); // atribui o valor do meu parametro, no caso o que o usuário digitou.
-                    catcmd.ExecuteNonQuery();
-                    Sucesso("Categoria Cadastrada com sucesso!");
-                    IdCategoria++; // Incrementa o próximo ID
-                    txtIdCategoria.Text = IdCategoria.ToString(); // Atualiza o campo de ID
-                    ArmazenarCategoria();
-                    Limpar();
-                 */
-
-
+                if (count == 0)
+                {
+                    string inserirUsuarioPadrao = "INSERT INTO login (user, senha, tipo_usuario) VALUES ('admin', 'admin', 'Administrador')";
+                    MySqlCommand insertcmd = new MySqlCommand(inserirUsuarioPadrao, Conexao);
+                    insertcmd.ExecuteNonQuery();
+                    MessageBox.Show("Usuário administrador padrão criado com sucesso!\nuser: admin\nsenha: admin", "Primeiro Acesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             catch (MySqlException ex)
             {
-                MessageBox.Show($"Erro : {ex.Message}");
+                MessageBox.Show($"Erro ao criar usuário padrão: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
                 Conexao.Close();
             }
-
         }
 
+        private void btnLogar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
+//1° - Precisa fazer o cadastro do usuário padrão e verificar se ele já existe;
+
+//2º - Precisa fazer o método para quando iniciar o form outra vez, ele logar com ou o mesmo admin ou com o novo usuário e tipo cadastrado, fazendo com o que inicie o form visualizar caso seja simples e menu em diante caso seja administrador;

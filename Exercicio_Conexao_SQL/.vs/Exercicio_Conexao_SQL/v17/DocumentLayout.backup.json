@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\",
+  "WorkspaceRootPath": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\conexao_sql\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\matheus.smatos11\\source\\repos\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\visualizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|c:\\users\\secretaria\\desktop\\nova pasta\\atividadesql\\exercicio_conexao_sql\\conexao_sql\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F0983E-CE47-44FC-B109-DADE5697FB3C}|Conexao_SQL\\Conexao_SQL.csproj|solutionrelative:conexao_sql\\cadastrarcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,52 +46,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "cadastrarProduto.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
+              "Title": "cadastrarProduto.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarProduto.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs [Design]",
-              "RelativeToolTip": "Conexao_SQL\\cadastrarProduto.cs [Design]",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
+              "RelativeToolTip": "Conexao_SQL\\cadastrarProduto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T00:53:58.323Z",
+              "WhenOpened": "2025-04-29T18:51:24.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Visualizar.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs",
+              "RelativeDocumentMoniker": "Conexao_SQL\\Visualizar.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs",
+              "RelativeToolTip": "Conexao_SQL\\Visualizar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:03:40.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs",
+              "RelativeDocumentMoniker": "Conexao_SQL\\Menu.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs",
+              "RelativeToolTip": "Conexao_SQL\\Menu.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:03:16.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Visualizar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs",
+              "RelativeDocumentMoniker": "Conexao_SQL\\Visualizar.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Visualizar.cs [Design]",
+              "RelativeToolTip": "Conexao_SQL\\Visualizar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:03:13.198Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\Login.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs",
               "RelativeToolTip": "Conexao_SQL\\Login.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwFQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAnwFAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T00:25:55.104Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\Login.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs [Design]",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Login.cs [Design]",
               "RelativeToolTip": "Conexao_SQL\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T21:55:44.8Z",
@@ -79,16 +126,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "cadastrarProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs",
+              "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarProduto.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarProduto.cs [Design]",
+              "RelativeToolTip": "Conexao_SQL\\cadastrarProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T00:53:58.323Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs",
+              "RelativeDocumentMoniker": "Conexao_SQL\\Menu.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\Menu.cs [Design]",
+              "RelativeToolTip": "Conexao_SQL\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:03:15.322Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "cadastrarCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
               "RelativeDocumentMoniker": "Conexao_SQL\\cadastrarCategoria.cs",
-              "ToolTip": "C:\\Users\\matheus.smatos11\\source\\repos\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
+              "ToolTip": "C:\\Users\\secretaria\\Desktop\\Nova pasta\\atividadeSQL\\Exercicio_Conexao_SQL\\Conexao_SQL\\cadastrarCategoria.cs",
               "RelativeToolTip": "Conexao_SQL\\cadastrarCategoria.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAmwJMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T00:25:34.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T00:25:34.961Z"
             }
           ]
         }
