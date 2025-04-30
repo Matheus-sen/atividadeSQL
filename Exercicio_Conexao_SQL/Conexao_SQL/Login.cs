@@ -66,6 +66,7 @@ namespace Conexao_SQL
                 txtSenha.Text = "";
                 txtSenha.ForeColor = Color.Black;
                 txtSenha.PasswordChar = '*';
+
             }
         }
 
@@ -88,7 +89,8 @@ namespace Conexao_SQL
                 Conexao.Open();
                 string verificarAdmin = "SELECT COUNT(*) FROM login WHERE user = 'admin'";
                 MySqlCommand verificarCmd = new MySqlCommand(verificarAdmin, Conexao);
-                int count = (int)verificarCmd.ExecuteScalar();
+                int count = Convert.ToInt32(verificarCmd.ExecuteScalar());
+
 
                 if (count == 0)
                 {
@@ -110,7 +112,13 @@ namespace Conexao_SQL
 
         private void btnLogar_Click(object sender, EventArgs e)
         {
+            string usuarioDigitado = txtUser.Text.Trim().ToUpper();
+            string senhaDigitada = txtSenha.Text;
 
+            if (string.IsNullOrEmpty(usuarioDigitado) || usuarioDigitado == "User/Login...")
+            {
+                MessageBox
+            }
         }
     }
 }
