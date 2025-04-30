@@ -40,5 +40,10 @@ namespace Conexao_SQL
             this.Close();
         }
 
+        private void cadastrarUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarUsuário form = new CadastrarUsuário();
+            form.ShowDialog();
+        }
     }
 }
