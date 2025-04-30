@@ -97,7 +97,8 @@ namespace Conexao_SQL
                     string inserirUsuarioPadrao = "INSERT INTO login (user, senha, tipo_usuario) VALUES ('admin', 'admin', 'Administrador')";
                     MySqlCommand insertcmd = new MySqlCommand(inserirUsuarioPadrao, Conexao);
                     insertcmd.ExecuteNonQuery();
-                    MessageBox.Show("Usuário administrador padrão criado com sucesso!\nuser: admin\nsenha: admin", "Primeiro Acesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Usuário administrador padrão criado com sucesso!", "Primeiro Acesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
                 }
             }
             catch (MySqlException ex)
@@ -117,10 +118,56 @@ namespace Conexao_SQL
 
             if (string.IsNullOrEmpty(usuarioDigitado) || usuarioDigitado == "User/Login...")
             {
-                MessageBox
+                MessageBox.Show("Campo 'User/Login...' precisa estar preenchido","Aviso",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtUser.Focus();
+            }
+
+            if (string.IsNullOrEmpty(senhaDigitada) || senhaDigitada == "Senha...")
+            {
+                MessageBox.Show("Campo 'Senha...' precisa estar preenchido", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtSenha.Focus();
+            }
+
+            Conexao = new MySqlConnection(data_source);
+
+            try
+            {
+                Conexao.Open();
+
+                string selectBanco = "SELECT tipo_usuario FROM login WHERE user = @user AND senha = @senha";
+                MySqlCommand cmdTipoU = new MySqlCommand(selectBanco, Conexao);
+                cmdTipoU.Parameters.AddWithValue("@user", usuarioDigitado);
+                cmdTipoU.Parameters.AddWithValue("@senha", senhaDigitada);
+
+                string tipoUsuario = (string)cmdTipoU.ExecuteScalar();
+
+                if (tipoUsuario == "Administrador")
+                {
+                    Menu menuForm = new Menu();
+                    menuForm.ShowDialog(); 
+                }
+                else if (tipoUsuario == "Simples")
+                {
+                    Visualizar visualizarForm = new Visualizar();
+                    visualizarForm.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Usuário ou senha incorretos.", "Erro de Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtUser.Focus();
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Erro ao conectar ou consultar o banco de dados: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Conexao.Close();
             }
         }
     }
+
 }
 
 
