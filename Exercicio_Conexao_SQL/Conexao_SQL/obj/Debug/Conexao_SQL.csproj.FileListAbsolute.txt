@@ -164,3 +164,4 @@ C:\Users\secretaria\Desktop\Nova pasta\atividadeSQL\Exercicio_Conexao_SQL\Conexa
 C:\Users\secretaria\Desktop\Nova pasta\atividadeSQL\Exercicio_Conexao_SQL\Conexao_SQL\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\secretaria\Desktop\Nova pasta\atividadeSQL\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.Login.resources
 C:\Users\secretaria\Desktop\Nova pasta\atividadeSQL\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_.16A7D787.Up2Date
+C:\Users\matheus.smatos11\source\repos\atividadeSQL\Exercicio_Conexao_SQL\Conexao_SQL\obj\Debug\Conexao_SQL.CadastrarUsuário.resources

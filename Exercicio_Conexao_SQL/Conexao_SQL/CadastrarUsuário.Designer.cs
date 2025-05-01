@@ -73,6 +73,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Administrador",
+            "Usuário Simples"});
             this.comboBox1.Location = new System.Drawing.Point(78, 265);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(171, 21);
@@ -120,6 +123,7 @@
             this.Controls.Add(this.lblUserUsuario);
             this.Name = "CadastrarUsuário";
             this.Text = "CadastrarUsuário";
+            this.Load += new System.EventHandler(this.CadastrarUsuário_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
